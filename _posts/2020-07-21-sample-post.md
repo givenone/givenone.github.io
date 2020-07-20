@@ -6,8 +6,8 @@ color: brown
 author: sylhare
 excerpt_separator: <!--more-->
 ---
-
-여기까지 프리뷰로 나온다.
+** preview test.
+Preview before excerpt separator
 <!--more-->
 exerpt separator의 사용
 
