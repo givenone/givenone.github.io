@@ -13,18 +13,6 @@ img: "assets/img/junwon_square.png"
     Programmer, runner, diver.<br>
     Studying computer science and business.
 </p>
-
-### Career
-
-- <small> 2021 ~ </small> 과학기술전문사관 5기
-  - [Research Officers for National Defense](http://rond.or.kr/)
-- <small> 2020 </small> 소프트웨어 마에스트로 11기
-  - [Software Maestro](http://swmaestro.org/)
-- <small> 2017 - 2020 </small> 서울대학교
-    - [Seoul National University](https://www.snu.ac.kr/)
-    - B.S. in [Computer Science and Engineering](https://cse.snu.ac.kr/) and [Business and Administration](https://biz.snu.ac.kr/)
-- <small> 2014 - 2017 </small> 용인한국외국어대학교부설고등학교
-    - [Hankuk Academy of Foreign Studies](http://hafs.hs.kr/)
   
 ### Interests
 - `Computer Graphics`
@@ -64,4 +52,17 @@ img: "assets/img/junwon_square.png"
 컴퓨터 그래픽스, 컴퓨터 비젼, 딥러닝 등을 공부하며 종종 개발도 합니다.  
 영상(사진, 이미지)에는 눈에 보이는 것보다 아주 많은 정보가 담겨있습니다. 영상으로부터 유의미한 정보를 찾아내는 수학적 방법들을 공부합니다. 그 기술들로 어떻게 돈을 벌 수 있을 지도 연구합니다.  
 
-주로 혼자 밤새며 작업하는 경우가 많습니다. 함께 공부하고 싶으면 언제든 오세요.
+주로 혼자 밤새며 작업하는 경우가 많습니다. 함께 공부하고 싶으면 언제든 오세요 !
+
+
+### Career
+
+- <small> 2021 ~ </small> 과학기술전문사관 5기
+  - [Research Officers for National Defense](http://rond.or.kr/)
+- <small> 2020 </small> 소프트웨어 마에스트로 11기
+  - [Software Maestro](http://swmaestro.org/)
+- <small> 2017 - 2020 </small> 서울대학교
+    - [Seoul National University](https://www.snu.ac.kr/)
+    - B.S. in [Computer Science and Engineering](https://cse.snu.ac.kr/) and [Business and Administration](https://biz.snu.ac.kr/)
+- <small> 2014 - 2017 </small> 용인한국외국어대학교부설고등학교
+    - [Hankuk Academy of Foreign Studies](http://hafs.hs.kr/)
