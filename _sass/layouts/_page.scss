@@ -14,7 +14,11 @@ h1.title {
 }
 
 //Shared css in _post.scss
-
+.post-content {
+  font-weight: normal;
+  @extend %padding-post;
+  padding-bottom: 0;
+}
 
 /* --- Aligner --- */
 /* within page/posts */

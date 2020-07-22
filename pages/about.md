@@ -24,7 +24,7 @@ img: "assets/img/junwon_square.png"
 
 <!-- * 카카오맵 - 지도퍼가기 -->
 <!-- 1. 지도 노드 -->
-<div id="daumRoughmapContainer1595264390623" class="root_daum_roughmap root_daum_roughmap_landing"></div>
+<div id="daumRoughmapContainer1595264390623" class="root_daum_roughmap root_daum_roughmap_landing" width="100%"></div>
 
 <!--
 	2. 설치 스크립트
@@ -52,7 +52,7 @@ img: "assets/img/junwon_square.png"
 컴퓨터 그래픽스, 컴퓨터 비젼, 딥러닝 등을 공부하며 종종 개발도 합니다.  
 영상(사진, 이미지)에는 눈에 보이는 것보다 아주 많은 정보가 담겨있습니다. 영상으로부터 유의미한 정보를 찾아내는 수학적 방법들을 공부합니다. 그 기술들로 어떻게 돈을 벌 수 있을 지도 연구합니다.  
 
-주로 혼자 밤새며 작업하는 경우가 많습니다. 함께 공부하고 싶으면 언제든 오세요 !
+함께 공부하고 싶으면 언제든 오세요 !
 
 
 ### Career

@@ -1,6 +1,6 @@
 # SITE CONFIGURATION
 baseurl: ""
-url: "https://givenone.github.io"
+url: "https://www.givenone.me"
 
 # THEME-SPECIFIC CONFIGURATION
 title: givenone                                    # site's title
