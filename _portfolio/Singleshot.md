@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "Single Image based Face Reconstruction"
+feature-img: "assets/img/pexels/computer.jpeg"
 img: "assets/computer_img/junwon.gif"
 tags: [Computer Graphics, Computer]
 ---

@@ -2,6 +2,7 @@
 layout: post
 title: "Light Stage Simulation"
 img: "assets/computer_img/IMG_6455.JPG"
+feature-img: "assets/img/pexels/computer.jpeg"
 tags: [Computer Graphics, Computer]
 ---
 

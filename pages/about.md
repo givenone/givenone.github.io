@@ -24,7 +24,7 @@ img: "assets/img/junwon_square.png"
 
 <!-- * 카카오맵 - 지도퍼가기 -->
 <!-- 1. 지도 노드 -->
-<div id="daumRoughmapContainer1595264390623" class="root_daum_roughmap root_daum_roughmap_landing" width="100%"></div>
+<div id="daumRoughmapContainer1595264390623" class="root_daum_roughmap root_daum_roughmap_landing" style="width:100%"></div>
 
 <!--
 	2. 설치 스크립트
@@ -37,7 +37,6 @@ img: "assets/img/junwon_square.png"
 	new daum.roughmap.Lander({
 		"timestamp" : "1595264390623",
 		"key" : "2zc4f",
-		"mapWidth" : "640",
 		"mapHeight" : "360"
 	}).render();
 </script>

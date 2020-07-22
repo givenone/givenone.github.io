@@ -2,6 +2,7 @@
 layout: post
 title: "Face Scanner"
 img: "assets/computer_img/IMG_5316.JPEG"
+feature-img: "assets/img/pexels/computer.jpeg"
 tags: [Computer Graphics, Computer]
 ---
 

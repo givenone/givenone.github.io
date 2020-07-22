@@ -2,6 +2,7 @@
 layout: post
 title: Face Landmark Detection
 img: "assets/computer_img/18C0483D-175F-4DC5-8257-37731B970030.jpg"
+feature-img: "assets/img/pexels/computer.jpeg"
 date: July 2020
 tags: [Computer Graphics, Computer]
 ---

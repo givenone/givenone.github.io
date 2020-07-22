@@ -2,6 +2,7 @@
 layout: post
 title: "Light Stage"
 img: "assets/computer_img/ls.jpg"
+feature-img: "assets/img/pexels/computer.jpeg"
 tags: [Computer Graphics, Computer]
 ---
 
