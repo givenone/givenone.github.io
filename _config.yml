@@ -4,7 +4,7 @@ url: "https://givenone.me"
 
 # THEME-SPECIFIC CONFIGURATION
 title: givenone                                    # site's title
-description: "Seo Junwon @ Seoul National University (givenone)'s blog"      # used by search engines
+description: "준원 소프트웨어 연구소"      # used by search engines
 avatar: assets/img/junwon_square.png                         # Empty for no avatar in navbar
 favicon: assets/JW.ico                             # Icon displayed in the tab
 
