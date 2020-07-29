@@ -65,3 +65,23 @@ img: "assets/img/junwon_square.png"
     - B.S. in [Computer Science and Engineering](https://cse.snu.ac.kr/) and [Business and Administration](https://biz.snu.ac.kr/)
 - <small> 2014 - 2017 </small> 용인한국외국어대학교부설고등학교
     - [Hankuk Academy of Foreign Studies](http://hafs.hs.kr/)
+
+
+### Peoples
+
+- 이규민
+<p align="left">
+    <img src="{{"assets/img/lee.jpg" | relative_url}}" alt="lee" width="35%" />
+</p>
+직책 : 원숭이  
+직무 : 화재 진압 (소방서 근무 경험)
+
+
+
+- 오세영
+<p align="left">
+    <img src="{{"assets/img/oh.png" | relative_url}}" alt="oh" width="35%"/>
+</p>
+직책 : 인턴  
+직무 : 연구소 내 소송 담당 (현 [서울대 로스쿨](http://law.snu.ac.kr/) 재학 중) 
+
