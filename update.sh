@@ -1,2 +1,2 @@
-sudo bundle install
-sudo bundle exec jekyll serve --watch
+bundle install
+bundle exec jekyll serve --watch
