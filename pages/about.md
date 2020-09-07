@@ -86,5 +86,5 @@ img: "assets/img/junwon_square.png"
 <p align="left">
     <img src="{{"assets/img/roh.png" | relative_url}}" alt="oh" width="35%"/>
 </p>
-직책 : 기술 고문
+직책 : 기술 고문  
 직무 : 탈모 치료법 연구 (현 [가톨릭대 의과대학](https://medicine.catholic.ac.kr/) 재학 중) 
