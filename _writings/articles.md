@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Algorithm
+title: articles
 img: "assets/img/human.jpg"
 feature-img: "assets/img/pexels/computer.jpeg"
 ---
