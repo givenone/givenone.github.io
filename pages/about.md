@@ -10,7 +10,6 @@ img: "assets/img/junwon_square.png"
     <img src="{{page.img| relative_url}}" alt="junwon" width="60%"/>
     <br>
     Seo Junwon (서준원)<br>
-    Programmer, runner, diver.<br>
     Studying computer science and business.
 </p>
   
