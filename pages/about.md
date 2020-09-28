@@ -86,4 +86,11 @@ img: "assets/img/junwon_square.png"
     <img src="{{"assets/img/roh.png" | relative_url}}" alt="oh" width="35%"/>
 </p>
 직책 : 기술 고문  
-직무 : 탈모 치료법 연구 (현 [가톨릭대 의과대학](https://medicine.catholic.ac.kr/) 재학 중) 
+직무 : 탈모 치료법 연구 (현 [가톨릭대 의과대학](https://medicine.catholic.ac.kr/) 재학 중)  
+
+- 김재언
+<p align="left">
+    <img src="{{"assets/img/jaeon.jpg" | relative_url}}" alt="jae" width="35%"/>
+</p>
+직책 : 스노우보드 강사 (Lv 1)  
+직무 : 기상 관측 (현 [서울대 지구환경과학부](http://sees.snu.ac.kr/hs/korean/main/Main.do) 재학 중. 핸드폰으로 날씨를 보는게 취미임.) 
