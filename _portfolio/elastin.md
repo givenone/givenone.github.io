@@ -1,11 +1,11 @@
 ---
 layout: post
 title: "내 손안의 헤어샵"
-img: "assets/elastin/1.gif"
+img: "assets/elastin/1.GIF"
 tags: [Computer Graphics, Computer]
 ---
 
-![hook]({{"assets/elastin/2.gif" | relative_url}})
+![hook]({{"assets/elastin/2.GIF" | relative_url}})
 
 ### Introduction
 
@@ -15,8 +15,7 @@ tags: [Computer Graphics, Computer]
 
 Deep Learning, Vision, 3D 등의 기술이 사용됐다. 인터페이스는 Unity를 사용해 개발했다.
 
-![hook]({{"assets/elastin/1.gif" | relative_url}})
-
+![hook]({{"assets/elastin/1.GIF" | relative_url}})
 
 ### 기획 의도
 
@@ -46,6 +45,8 @@ Single Shot Image로부터 3d hair 데이터 생성하는 네트워크
 [포스트](http://givenone.me/2020/07/22/HairNet-Data-Generation-%EC%BD%94%EB%93%9C%EB%B6%84%EC%84%9D.html)  
 
 - Unsupervised Learning을 이용한 비슷한 스타일 추천 네트워크 (ResNet50)
+simclr 참고  
+[깃헙](https://github.com/givenone/hair_feature)  
 
 ### 얼굴 데이터 생성
 
