@@ -18,6 +18,35 @@ tags: [Computer Graphics, Computer]
 
 Light Stage는 적개는 수십개에서 많게는 수백개의 Light를 달아야 하므로 매우 큰 장비를 필요로 한다. 회사는 이 장비를 직접 제작했고, 장비를 사용하는 소프트웨어 개발을 진행했다. LED Light를 조절하고 알맞은 타이밍에 여러 대의 카메라에서 촬영을 해 얻어진 영상으로부터 물체의 표면을 분석한다.
 
+### 1. Light Stage Simulation
+
+Light Stage는 크고 정밀한 하드웨어 장비가 필요하므로 스캐닝 알고리즘을 실험하기 위해 Physically Based 3D Simulation (Blender를 이용)로 렌더링을 했다. 다양한 라이팅 컨디션에서 매우 정밀한 얼굴 모델을 렌더링했다. 렌더링 이미지를 Reconstruction 하여 point cloud와 Normal map을 생성했다.
+
+해당 링크[링크](http://givenone.me/works/slsimulation) 참고.
+
+### 2. Diffuse-Specular Separation using Binary Spherical Gradient Illumination 구현
+
+논문 [링크](https://wp.doc.ic.ac.uk/rgi/project/diffuse-specular-separation-using-binary-spherical-gradient-illumination/)를 구현하고 렌더링 이미지에 대해서 Diffuse Specular Separation과 Normal Reconstruction 을 실행했다. 다양한 parameter 세팅과 알고리즘 성능을 테스트했다.
+
+### 3. 하드웨어 제작 및 실험
+
+회사에서 실제 하드웨어를 제작하여 3D scanner를 제작했다. 3 view의 SL 3D Scanner와 Light Stage의 Normal map scanner를 동시에 작동하도록 했다. 아두이노를 사용해서 하드웨어에 트리거를 전달했고, 촬영 결과를 바탕으로 dense normal map을 가진 3d 파일을 생성했다.
+
+실제 촬영에서 생기는 이슈 (카메라 노출, 노이즈 컨트롤, Alignment 등) 들을 체험하고 컨트롤했다.
+
+### 4. 결과  
+
+<p align="center">  
+    <img src="{{"assets/computer_img/IMG_6977.JPG" | relative_url}}" alt="junwon" width="60%" align="center"/> 
+    Diffuse Normal Map
+</p>  
+<p align="center">  
+    <img src="{{"assets/computer_img/IMG_6978.JPG" | relative_url}}" alt="junwon" width="60%" align="center"/> 
+    Specular Normal Map
+</p>
+
+[3d scanner로 스캔한 나](http://givenone.me/works/3djunwon)
+
 ### Code
 
 [Github](https://github.com/givenone/lightstage) Repository다.

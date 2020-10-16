@@ -6,18 +6,27 @@ feature-img: "assets/img/pexels/computer.jpeg"
 tags: [Computer Graphics, Computer]
 ---
 
-![image]({{ page.img | relative_url }})
+<p align="center">  
+    <img src="{{page.img | relative_url}}" alt="junwon" width="60%" align="center"/>  
+</p>
+
+마네킹을 Shifting pattern을 사용해 Structured Light Scanner얻은 Point Cloud 
 
 ### Introduction
 
 Structured Light를 사용한 3D Face Scanner.
-Shift Pattern을 적용해 더 정밀한 Depth Estimation이 가능하도록 했다.
+Shift Pattern을 적용해 더 정밀한 Depth Map 생성이 가능하도록 했다. (머리카락에 대해서도)
 
 Structured Light 3D Scanner에 대한 설명은 [링크](https://en.wikipedia.org/wiki/Structured-light_3D_scanner)에서 확인할 수 있다.
 
-논문 [Capture of hair geometry using white structured light](https://www.researchgate.net/publication/321067082_Capture_of_hair_geometry_using_white_structured_light) 를 구현했다. structured light scanner를 개선해 머리카락의 Geometry까지 Capture가 가능하도록 했다.
+논문 [Capture of hair geometry using white structured light (링크)](https://www.researchgate.net/publication/321067082_Capture_of_hair_geometry_using_white_structured_light) 를 구현했다. structured light scanner를 개선해 머리카락의 Geometry까지 Capture가 가능하도록 했다.
 
 참고로 머리카락은 3D 스캔이 매우 어렵다. 머리카락은 얇고, 빛을 반사하지 않고 대부분 흡수한다. 또한 머리카락 간의 광학적 상호작용이 복잡하기 때문에 빛을 이용해 스캔하는 것은 쉽지 않다. 따라서 일반적인 패턴을 사용할 경우 노이즈로 인식되는 경우가 많으며 정확한 Geometry 정보를 획득할 수 없다.  
+
+<p align="center">  
+    <img src="{{"assets/computer_img/shift.png" | relative_url}}" alt="junwon" width="60%" align="center"/>
+    Shifting Pattern 
+</p>
 
 한 픽셀씩 이동하는 Shift Pattern을 structure light 패턴에 적용한 후, Sine Fitting 등의 후처리작업을 거쳐 머리카락의 위치를 최대한 정밀하게 측정해볼 수 있었다. 패턴 뿐만 아니라 하드웨어 컨트롤, 캘리브레이션, 프로젝터 해상도 등 다양한 요소가 성능에 영향을 미치는 것도 확인했다.
 
