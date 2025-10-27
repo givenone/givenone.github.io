@@ -1,0 +1,158 @@
+/*@import url('fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&display=swap');*/
+
+a {
+  color: #0048A6; /*#0099cc;*/ /*#0099cc; */ /*#14A098;*/ /*#0099cc;*/
+  text-decoration: none;
+}
+
+a:focus,
+a:hover {
+  color: #f18800; /* #f18800; */
+  text-decoration: none;
+}
+
+body,
+td,
+th,
+tr,
+p,
+a {
+  /*font-family: 'Libre Baskerville', serif;*/
+  /*font-family: 'Poppins', sans-serif; */
+  /*font-family: 'Open Sans', sans-serif;*/
+  font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+  /*font-family: 'Lora', serif;*/
+  font-size: 15px;
+  line-height: 1.5;
+}
+
+strong {
+  /*font-family: 'Libre Baskerville', serif;*/
+  /*font-family: 'Poppins', sans-serif;*/
+  /*font-family: 'Open Sans', sans-serif;*/
+  font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+  /*font-family: 'Lora', serif;*/
+  font-size: 15px;
+}
+
+heading {
+  /*font-family: 'Libre Baskerville', serif;*/
+  /*font-family: 'Poppins', sans-serif; */
+  /*font-family: 'Open Sans', sans-serif;*/
+  font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+  /*font-family: 'Lora', serif;*/
+  font-size: 24px;
+}
+
+papertitle {
+  /*font-family: 'Libre Baskerville', serif;*/
+  /*font-family: 'Poppins', sans-serif; */
+  /*font-family: 'Open Sans', sans-serif;*/
+  font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+  /*font-family: 'Lora', serif;*/
+  font-size: 15px;
+  font-weight: 700
+}
+
+name {
+  /*font-family: 'Libre Baskerville', serif;*/
+  /*font-family: 'Poppins', sans-serif; */
+  /*font-family: 'Open Sans', sans-serif;*/
+  font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+  /*font-family: 'Lora', serif;*/
+  font-size: 34px;
+}
+
+.one {
+  width: 160px;
+  height: 160px;
+  position: relative;
+}
+
+.two {
+  width: 160px;
+  height: 160px;
+  position: absolute;
+  transition: opacity .2s ease-in-out;
+  -moz-transition: opacity .2s ease-in-out;
+  -webkit-transition: opacity .2s ease-in-out;
+}
+
+.fade {
+  transition: opacity .2s ease-in-out;
+  -moz-transition: opacity .2s ease-in-out;
+  -webkit-transition: opacity .2s ease-in-out;
+}
+
+span.highlight {
+  background-color: #ffffd0;
+}
+
+.pub-image {
+  width: 100%;
+  border-radius: 5%/10%;
+}
+
+.pub-image-wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+}
+
+.venue-badge {
+  background-color: #0091ff;
+  color: white;
+  padding: 4px 8px;
+  border-radius: 4px;
+  font-weight: bold;
+  font-size: 12px;
+  margin-bottom: 8px;
+  font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+}
+
+.button-paper, .button-website, .button-talk {
+  color: #0048A6;
+  border: 2px solid #0048A6;
+  padding: 4px 8px;
+  border-radius: 4px;
+  display: inline-block;
+  transition: all 0.3s ease;
+  text-decoration: none;
+}
+
+.button-paper:hover, .button-website:hover, .button-talk:hover {
+  color: #ffffff;
+  background-color: #0048A6;
+}
+
+.button-paper i, .button-website i, .button-talk i {
+  margin-right: 4px;
+}
+
+.fa-ul {
+  list-style: none;
+  padding-left: 0;
+}
+
+.fa-ul li {
+  position: relative;
+  padding-left: 1.8em;
+  margin-bottom: 8px;
+}
+
+.fa-ul li i {
+  position: absolute;
+  left: 0;
+  color: #0048A6;
+  top: 0.2em;
+}
+
+/* Style author links in publications as gray */
+td[style*="padding:20px"] a:not(.button-paper):not(.button-website):not(.button-talk) {
+  color: #0048A6;
+}
+
+td[style*="padding:20px"] a:not(.button-paper):not(.button-website):not(.button-talk):hover {
+  color: #f18800;
+}
