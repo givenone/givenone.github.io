@@ -1,5 +1,18 @@
 /*@import url('fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&display=swap');*/
 
+html {
+  /* Prevent mobile browsers (esp. iOS Safari) from auto-inflating text,
+     which made content render too large on first load before reflow. */
+  -webkit-text-size-adjust: 100%;
+  -moz-text-size-adjust: 100%;
+  text-size-adjust: 100%;
+}
+
+body {
+  /* Avoid horizontal overflow / zoom-out on narrow screens. */
+  overflow-x: hidden;
+}
+
 a {
   color: #0048A6; /*#0099cc;*/ /*#0099cc; */ /*#14A098;*/ /*#0099cc;*/
   text-decoration: none;
@@ -111,7 +124,7 @@ span.highlight {
   font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
 }
 
-.button-paper, .button-website, .button-talk {
+.button-paper, .button-website, .button-talk, .button-code {
   color: #0048A6;
   border: 2px solid #0048A6;
   padding: 4px 8px;
@@ -121,12 +134,12 @@ span.highlight {
   text-decoration: none;
 }
 
-.button-paper:hover, .button-website:hover, .button-talk:hover {
+.button-paper:hover, .button-website:hover, .button-talk:hover, .button-code:hover {
   color: #ffffff;
   background-color: #0048A6;
 }
 
-.button-paper i, .button-website i, .button-talk i {
+.button-paper i, .button-website i, .button-talk i, .button-code i {
   margin-right: 4px;
 }
 
