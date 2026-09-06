@@ -154,7 +154,7 @@ span.highlight {
   margin-bottom: 8px;
 }
 
-.fa-ul li i {
+.fa-ul li i.fa {
   position: absolute;
   left: 0;
   color: #0048A6;
