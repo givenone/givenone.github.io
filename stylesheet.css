@@ -169,3 +169,42 @@ td[style*="padding:20px"] a:not(.button-paper):not(.button-website):not(.button-
 td[style*="padding:20px"] a:not(.button-paper):not(.button-website):not(.button-talk):hover {
   color: #f18800;
 }
+
+.older-news summary {
+  list-style: none;
+  cursor: pointer;
+  display: inline-block;
+  color: #0048A6;
+  transition: color 0.2s ease;
+}
+
+.older-news summary:hover {
+  color: #f18800;
+}
+
+.older-news summary::-webkit-details-marker {
+  display: none;
+}
+
+.older-news summary::after {
+  content: "\f107";
+  font-family: FontAwesome;
+  margin-left: 0.4em;
+}
+
+.older-news[open] summary::after {
+  content: "\f106";
+}
+
+.older-news .hide,
+.older-news[open] .show {
+  display: none;
+}
+
+.older-news[open] .hide {
+  display: inline;
+}
+
+.older-news ul {
+  margin-top: 12px;
+}
